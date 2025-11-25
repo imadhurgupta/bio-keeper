@@ -20,8 +20,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Create professional, beautiful marriage biodatas in seconds. 
-              Secure, simple, and designed to help you find your perfect match.
+              Create professional, beautiful biodatas in seconds. 
+              Secure, simple, and designed.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © {currentYear} BioKpx. All rights reserved.
+            © {currentYear} BioKeeper. All rights reserved.
           </p>
           <p className="text-sm text-gray-400 flex items-center gap-1">
             Made with <Heart size={14} className="text-red-500 fill-current" /> in India
