@@ -76,7 +76,7 @@ const CreateBio = () => {
     <div className="max-w-4xl mx-auto mt-10 mb-10 p-8 bg-white rounded-2xl shadow-xl border border-gray-100">
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-extrabold text-gray-800">Create Biodata</h2>
-        <p className="text-gray-500 mt-2">Complete your profile to find the perfect match</p>
+        <p className="text-gray-500 mt-2">Complete your profile</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-8">
@@ -106,7 +106,7 @@ const CreateBio = () => {
             <div className="flex flex-col">
               <label className="text-sm font-medium text-gray-700 mb-1">Marital Status</label>
               <select name="maritalStatus" value={formData.maritalStatus} onChange={handleChange} className="p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none bg-white">
-                <option value="Unmarried">Never Married</option>
+                <option value="Unmarried">Unmarried</option>
                 <option value="Married">Married</option>
                 <option value="Divorced">Divorced</option>
                 <option value="Widowed">Widowed</option>
@@ -160,7 +160,7 @@ const CreateBio = () => {
             <textarea 
               name="bio"
               rows="4" 
-              placeholder="Describe your personality, hobbies, and what you are looking for in a partner..." 
+              placeholder="Describe your personality, hobbies, interests"          
               className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none resize-none" 
               value={formData.bio}
               onChange={handleChange}
